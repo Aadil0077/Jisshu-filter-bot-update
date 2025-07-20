@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "http://server.hostingup.org/")
+URL = environ.get("FQDN", "server.hostingup.org/")
 
 # Commands
 admin_cmds = [
